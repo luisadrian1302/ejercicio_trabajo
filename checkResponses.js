@@ -2,8 +2,6 @@ let respuestasCorrectas = 0;
 
 
 function checkResponses() {
-
-    let response = []
     
     for (let i = 0; i < 2; i++) {
         let isvalid = true;
@@ -71,7 +69,6 @@ function checkResponses() {
 
     if (respuestasCorrectas > 1) {
         
-        console.log("interval");
         setInterval(() => {
             updateClock(respuestasCorrectas)
             

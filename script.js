@@ -1,7 +1,6 @@
 
 
 function updateClock(respuestasCorrectas) {
-    console.log(respuestasCorrectas);
     
 
     for (let i = 1; i <= respuestasCorrectas; i++) {
