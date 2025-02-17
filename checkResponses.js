@@ -5,16 +5,20 @@ function checkResponses() {
     
     for (let i = 0; i < 2; i++) {
         let isvalid = true;
-        let arrayTests = generateRandomArray(8, 0,100);
-        let response = ResponderPreguntas(arrayTests);
+        let arrayTests1 = generateRandomArray(8, 0,100);
+        const arrayTests = arrayTests1;
+        let response = ResponderPreguntas(arrayTests1);
+
+        
         
         for (let i = 0; i < response.length; i++) {
+            
+
 
             if ( arrayTests[i] % 5 == 0 && arrayTests[i] % 3 == 0) {
                 if (!isNaN(response[i])) {
                     isvalid = false;
                     continue;
-
                 }
 
                 if ("FizzBuzz".toLowerCase() != response[i].toLowerCase()) {
@@ -23,11 +27,13 @@ function checkResponses() {
             }else if( arrayTests[i] % 5 == 0 ){
     
                 if (!isNaN(response[i])) {
+
                     isvalid = false;
                     continue;
 
                 }
                 if ("Buzz".toLowerCase() != response[i].toLowerCase()) {
+
                     isvalid = false;
                 }
         
@@ -39,6 +45,7 @@ function checkResponses() {
                 }
 
                 if ("Fizz".toLowerCase() != response[i].toLowerCase()) {
+
                     isvalid = false;
                 }
             }

@@ -15,20 +15,21 @@ function ResponderPreguntas(array){
     // Tu trabajo es lo siguente, en las secciones de "aqui colocaras el elemento faltante" colocaras la logica para realizar el ejericio
     // puedes ayudarte de la seccion de checkresponses.js en la linea 13 hasta el 44
 
-    // en este ejercicio necesitaras modificar el valor "array" y para modificarlo se hace con el siguente codigo:
-    // array[i] = "valorAmodificar"; // este es un ejemplo de como modificar un array en tu caso colocaras "Buzz", "FizzBuzz" o "Fizz", dependiendo el caso
-    // 
+    // en este ejercicio necesitaras modificar el valor "newArray" y para modificarlo se hace con el siguente codigo:
+    // newArray[i] = "valorAmodificar"; // este es un ejemplo de como modificar un array, en tu caso colocaras "Buzz", "FizzBuzz" o "Fizz", dependiendo el caso
+
+    let newArray = [];
 
     //  --------------------------------------------------------------------------
-    for (let u = 0; u < array.length; u++) {
+    for (let i = 0; i < array.length; i++) {
 
-    //   "aqui colocaras el elemento faltante"
-    
+        //   "aqui colocaras el elemento faltante"
+      
         
     }
 
     // --------------------------------------------------------------------------
-    return array;
+    return newArray;
 }
 
 
