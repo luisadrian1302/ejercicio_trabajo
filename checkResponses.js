@@ -10,6 +10,8 @@ function checkResponses() {
         let response = ResponderPreguntas(arrayTests1);
 
         
+        // console.log(response, arr);
+        
         
         for (let i = 0; i < response.length; i++) {
             
@@ -51,7 +53,11 @@ function checkResponses() {
             }
 
             
-        }    
+        }  
+        
+        if (response.length == 0) {
+            isvalid = false;
+        }
         if (isvalid) {
             respuestasCorrectas ++;
         }

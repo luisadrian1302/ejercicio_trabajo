@@ -17,14 +17,15 @@ function ResponderPreguntas(array){
 
     // en este ejercicio necesitaras modificar el valor "newArray" y para modificarlo se hace con el siguente codigo:
     // newArray[i] = "valorAmodificar"; // este es un ejemplo de como modificar un array, en tu caso colocaras "Buzz", "FizzBuzz" o "Fizz", dependiendo el caso
-
+    // en caso de que no exista un elemento simplemente agregara el valor en esa posicion
     let newArray = [];
 
     //  --------------------------------------------------------------------------
     for (let i = 0; i < array.length; i++) {
 
         //   "aqui colocaras el elemento faltante"
-      
+
+    
         
     }
 
