@@ -12,24 +12,18 @@ function ResponderPreguntas(array){
     // Entrada: [20, 30, 13, 2, 21]
     // Salida: ["Buzz", "FizzBuzz", 13, 2, "Fizz"] 
 
-    // Tu trabajo es lo siguente, en las secciones de "aqui colocaras el elemento faltante" simplemente modificaras el arreglo para que muestre el cambio
-    // recuerda cambialo por "FizzBuzz" cuando el numero 3 y 5 sean divisibles, 
-    // "Buzz" cuando un numero solamente sea divisible con 5 
-    // y "Fizz" cuando un numero solamente sea divisible con 3
+    // Tu trabajo es lo siguente, en las secciones de "aqui colocaras el elemento faltante" colocaras la logica para realizar el ejericio
+    // puedes ayudarte de la seccion de checkresponses.js en la linea 13 hasta el 44
+
+    // en este ejercicio necesitaras modificar el valor "array" y para modificarlo se hace con el siguente codigo:
+    // array[i] = "valorAmodificar"; // este es un ejemplo de como modificar un array en tu caso colocaras "Buzz", "FizzBuzz" o "Fizz", dependiendo el caso
+    // 
 
     //  --------------------------------------------------------------------------
     for (let u = 0; u < array.length; u++) {
 
-        if (array[u] % 5 == 0 && array[u] % 3 ==0) {
-            
-            // aqui colocaras el elemento faltante
-        }else if( array[u] % 5 == 0 ){
+    //   "aqui colocaras el elemento faltante"
     
-            // aqui colocaras el elemento faltante
-        }else if(array[u] % 3 == 0){
-
-            // aqui colocaras el elemento faltante
-        }
         
     }
 
